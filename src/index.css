@@ -3,3 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: HelveticaMd,sans-serif;
+  src: url(fonts/helvetica/HelveticaNeueMedium.ttf);
+}
+
+@font-face {
+  font-family: HelveticaBold,sans-serif;
+  src: url(fonts/helvetica/HelveticaNeueBold.ttf);
+}
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  font-family: HelveticaMd,sans-serif;
+  color: #888888;
+}

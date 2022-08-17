@@ -1,0 +1,41 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.input {
+    width: 340px;
+    height: 30px;
+}
+
+.button{
+    background: #FFF;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    color: #888888;
+    height: 39px;
+    width: 340px;
+}
+
+.campos{
+    display: flex;
+    flex-direction: column;
+}
+
+.campoRadio{
+    width: 100%;
+    display: flex;    
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-left: 240px;
+
+}
+
+.radio{
+    display: flex;
+    gap: 10px;
+    margin: 5px 0;
+}
