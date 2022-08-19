@@ -1,26 +1,30 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-button{
+/* :root {
+  font-size: 62.5%;
+} */
+
+button {
   cursor: pointer;
 }
 
 @font-face {
-  font-family: HelveticaMd,sans-serif;
+  font-family: HelveticaMd, sans-serif;
   src: url(fonts/helvetica/HelveticaNeueMedium.ttf);
 }
 
 @font-face {
-  font-family: HelveticaBold,sans-serif;
+  font-family: HelveticaBold, sans-serif;
   src: url(fonts/helvetica/HelveticaNeueBold.ttf);
 }
 
-body{
+body {
   width: 100%;
   min-height: 100vh;
-  font-family: HelveticaMd,sans-serif;
+  font-family: HelveticaMd, sans-serif;
   color: #888888;
 }
